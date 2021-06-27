@@ -1,0 +1,171 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+  background-color: #0a0a0a;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+}
+
+.navbar {
+  background-color: #161616 !important;
+}
+
+.container {
+  padding: 12vh 2%;
+}
+
+.row {
+  margin: 0;
+}
+
+.top-bar {
+  height: 12vh;
+  color: #fb3640;
+  width: 100%;
+  text-align: center;
+  -webkit-box-shadow: 0 10px 10px -10px #8d1a1a;
+  -moz-box-shadow: 0 10px 10px -10px #8d1a1a;
+  box-shadow: 0 10px 10px -10px #8d1a1a;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 2.2rem;
+  padding-top: 2vh;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.vs {
+  height: 15%;
+  padding-top: 5vh;
+}
+
+.hand {
+  max-height: 15%;
+}
+
+.hands {
+  height: 20vh;
+}
+
+.scors {
+  color: #fb3640;
+  padding-top: 8vh;
+}
+
+.message {
+  padding-top: 4vh;
+  color: #fb3640;
+}
+
+.choice {
+  padding: 6vh 10%;
+}
+
+.reset {
+  margin-top: 4vh;
+  font-size: 0.5rem;
+}
+
+.footer {
+  background-color: #161616 !important;
+  height: 5.2vh;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  width: 20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin: 0 auto;
+  bottom: 0;
+  color: #fb3640;
+}
+
+.footer-text {
+  padding-top: 1vh;
+  font-size: 0.8rem;
+}
+
+a {
+  color: #fb3640;
+}
+
+a:hover {
+  color: rgb(238, 238, 238);
+}
+
+.btn {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .hand {
+    max-height: 9%;
+  }
+  .vs {
+    height: 12%;
+  }
+  .footer {
+    width: 55%;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s;
+  -webkit-animation: fadeIn 0.8s;
+  -moz-animation: fadeIn 0.8s;
+  -o-animation: fadeIn 0.8s;
+  -ms-animation: fadeIn 0.8s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

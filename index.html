@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stone Paper Scissors</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark top-bar">
+        <h1 class="ml-auto mr-auto">Stone Paper Scissors</h1>
+    </nav>
+    <div class="container">
+        <div class="row hands">
+            <div class="col-4">
+                <img class="hand1 hand fadet" src="images/hand0l.png" alt="CPU's Hand">
+
+            </div>
+            <div class="col-4">
+                <img class="vs" src="images/versus.png" alt="VS">
+            </div>
+            <div class="col-4">
+                <img class="hand2 hand fadet" src="images/hand0r.png" alt="Your Hand">
+            </div>
+        </div>
+
+
+
+        <div class="row scors">
+            <div class="col-6">
+                <h3 class="cpu-score">CPU - </h3>
+            </div>
+
+            <div class="col-6">
+                <h3 class="user-score">You - </h3>
+            </div>
+        </div>
+
+        <div class="row message">
+            <div class="col-12">
+                <h2 class="mes fadet">Press any button to play!</h2>
+                <button type="button" class="reset btn btn-outline-light">Reset</button>
+            </div>
+        </div>
+        <div class="row choice">
+            <div class="col-4"><button id="0" type="button" class="playb btn btn-outline-light">Stone</button></div>
+
+            <div class="col-4"><button id="1" type="button" class="playb btn btn-outline-light">Paper</button></div>
+
+            <div class="col-4"><button id="2" type="button" class="playb btn btn-outline-light">Scissors</button></div>
+
+        </div>
+
+        <div class="footer">
+            <p class="footer-text">© 2021 Copyright: <a href="https://github.com/anurag-pratik" target="_blank">Anurag
+                    Pratik</a></p>
+        </div>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="game.js">  </script>
+
+</body>
+
+</html>
