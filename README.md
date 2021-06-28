@@ -1,7 +1,7 @@
 # Stone Paper Scissors🖐
 
 This is a simple game of stone paper and scissors built using Javascript, HTML and CSS.
-## You can play it [here](https://anurag-pratik.github.io/stone-paper-scissors-js/). :relaxed:
+## You can play it [here](https://anurag-pratik.github.io/stone-paper-scissors-js/). 😊
 
 ![alt demo image](https://i.ibb.co/9sxCCBc/stp.jpg)
 
